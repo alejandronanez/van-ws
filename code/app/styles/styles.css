@@ -1,0 +1,99 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  background: #fff;
+  max-width: 1170px;
+  margin: 0 auto;
+  
+}
+
+/**********************************
+HEADER
+***********************************/
+
+header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+header ul {
+  list-style: none;
+  
+}
+
+header ul li {
+  display: inline-block;
+  
+}
+
+header img {
+  margin-bottom: 3px;
+  
+}
+
+header a {
+  padding: 6px 0;
+  text-decoration: none;
+  color: #7a7a7a;
+  
+ }
+
+header a.selected, header a:hover {
+  color: #252525;
+  border-bottom: 1px solid #252525;
+  
+}
+
+/**********************************
+HEADER - HOME
+***********************************/
+
+.header-home {
+  float: left;
+  margin: 116px 0 80px;
+  padding: 0;
+  width: 100%;
+  
+} 
+
+.header-home nav {
+  width: 70%;
+  float: right;
+  text-align: right;
+  
+}
+
+.header-home ul {
+  margin: 38px 0 0;
+  padding: 0;
+  
+}
+
+.header-home ul li {
+  margin-left: 16px;
+   
+}
+
+/**********************************
+HEADER - INTERNAL
+***********************************/
+
+.header-internal {
+  float: left;
+  margin: 86px 0 80px;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+  
+.header-internal ul li {
+  margin-left: 21px;
+}
+
+.logo-header {
+  margin-bottom: 53px;
+}
