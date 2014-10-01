@@ -10,46 +10,51 @@ body {
 }
 
 /**********************************
-HEADER
+TOP HEADER
 ***********************************/
 
-header {
+.top-header {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 3px;
+  text-transform: uppercase;
+  
 }
 
-header ul {
+.top-header ul {
   list-style: none;
   
 }
 
-header ul li {
+.top-header li {
   display: inline-block;
+    
+}
+
+.top-header li:nth-child(n+2) {
+  background-image: url('../img/header-nav-bar.png');
+  background-repeat: no-repeat;
+  background-size: 37px 2px;
+  background-position: left center;
   
 }
 
-header img {
-  margin-bottom: 3px;
-  
-}
-
-header a {
+.top-header a {
   padding: 6px 0;
   text-decoration: none;
   color: #7a7a7a;
   
  }
 
-header a.selected, header a:hover {
+.top-header a.selected, .top-header ul a:hover {
   color: #252525;
   border-bottom: 1px solid #252525;
   
 }
 
 /**********************************
-HEADER - HOME
+TOP HEADER - HOME
 ***********************************/
 
 .header-home {
@@ -73,13 +78,18 @@ HEADER - HOME
   
 }
 
-.header-home ul li {
-  margin-left: 16px;
-   
+.header-home li {
+  padding: 0 7px 0 53px;
+  
+}
+
+.header-home li:last-child {
+  padding-right: 0;
+  
 }
 
 /**********************************
-HEADER - INTERNAL
+TOP HEADER - INTERNAL
 ***********************************/
 
 .header-internal {
@@ -89,11 +99,11 @@ HEADER - INTERNAL
   width: 100%;
   text-align: center;
 }
-  
-.header-internal ul li {
-  margin-left: 21px;
+
+img.logo-header {
+  margin-bottom: 53px;
 }
 
-.logo-header {
-  margin-bottom: 53px;
+.header-internal li {
+  padding: 0 12px 0 58px;
 }
