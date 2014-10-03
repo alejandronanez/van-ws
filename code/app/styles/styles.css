@@ -6,7 +6,12 @@ body {
   background: #fff;
   max-width: 1170px;
   margin: 0 auto;
-  
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+  line-height: 22px;
+  color: #7a7a7a;
 }
 
 /**********************************
@@ -14,7 +19,6 @@ TOP HEADER
 ***********************************/
 
 .top-header {
-  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 3px;
@@ -24,6 +28,7 @@ TOP HEADER
 
 .top-header ul {
   list-style: none;
+  padding: 0;
   
 }
 
@@ -66,16 +71,15 @@ TOP HEADER - HOME
 } 
 
 .header-home nav {
-  width: 70%;
+  width: 80%;
   float: right;
   text-align: right;
   
 }
 
 .header-home ul {
-  margin: 38px 0 0;
-  padding: 0;
-  
+  margin: 36px 0 0;
+
 }
 
 .header-home li {
@@ -98,12 +102,152 @@ TOP HEADER - INTERNAL
   padding: 0;
   width: 100%;
   text-align: center;
+  
 }
 
-img.logo-header {
-  margin-bottom: 53px;
+.header-internal ul {
+  margin-top: 53px;
+  
 }
-
+  
 .header-internal li {
   padding: 0 12px 0 58px;
+  
+}
+
+.header-internal li:first-child {
+  padding-left: 0;
+  
+}
+
+.header-internal li:last-child {
+  padding-right: 0;
+  
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  width: 100%;
+  float: left;
+  border-top: 1px solid #252525;
+  padding-top: 32px;
+  font-size: 13px;
+  
+}
+
+footer h5 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #252525;
+  
+}
+
+.footer-van, .footer-inst {
+  width: 385px;
+  text-align: center;
+  
+}
+
+.footer-van ul, .footer-inst ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.footer-van li, .footer-inst li {
+  display: inline-block;
+  
+}
+
+.footer-van-logo {
+  margin-top: 33px;
+  
+}
+
+.footer-van h5 {
+  margin: 30px 0 32px 0;
+  letter-spacing: 3px;
+  
+}
+
+.footer-van li:nth-child(n+2) {
+  padding-left: 30px;
+
+}
+
+.footer-twit {
+  width: 330px;
+  text-align: center;
+  padding: 33px 34px;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+
+.footer-twit h5, .footer-inst h5 {
+  background-image: url(../img/footer-h5-bar.png);
+  background-size: 40px 1px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 7px;
+  
+}
+
+.footer-twit h5 {
+  margin: 10px 0 18px 0;
+  
+}
+
+.footer-twit p {
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+.footer-twit p:last-child {
+  color: #000;
+    
+}
+
+.footer-inst {
+  padding: 33px 0;
+}
+
+.footer-inst h5 {
+  margin: 8px 0 21px 0;
+}
+
+.footer-inst ul {
+  margin: 0 0 0 12px;
+
+}
+
+.footer-inst li {
+  width: 119px;
+  height: 77px;
+  background-color: #858585;
+  
+}
+
+.footer-inst li:nth-child(n+2) {
+  margin-left: 3.5px;
+  
+}
+
+.footer-copy {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 12px;
+  border-top: 1px solid #252525;
+  padding-top: 28px;
+  
+}
+
+.footer-copy p {
+  margin-top: 0;
+  margin-bottom: 27px;
+  
 }
