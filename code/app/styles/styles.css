@@ -304,3 +304,30 @@ HOME - INTERNAL
   font-size: 12px;
   
 }
+
+/**********************************
+BRAND
+***********************************/
+.brand {
+    border: 1px solid #c0c0c0;
+    display: inline-block;
+    margin-right: 2%;
+    padding: 20px;
+    position: relative;
+    width: 25%;
+}
+
+.brand:last-child {
+    margin-right: 0;
+}
+
+.brand img {
+    top: -10px;
+    left: -10px;
+    position: absolute;
+}
+
+
+
+
+
