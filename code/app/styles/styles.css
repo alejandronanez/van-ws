@@ -276,7 +276,7 @@ HOME - INTERNAL
 
 .slogan p {
   font-size: 22px;
-  letter-spacing: 0px;
+  letter-spacing: -0.5px;
   line-height: 30px;
   color: #252525;
   margin: 0 0 30px 0;
@@ -370,6 +370,7 @@ HOME - INTERNAL
   width: 36px;
   height: 36px;
   background-image: url('../img/gallery-button.png');
+  border: none;
   vertical-align: middle;
   margin-right: 20px;
   
@@ -483,6 +484,7 @@ HOME - INTERNAL
   font-weight: 500;
   font-size: 10px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #252525;
   border: 1px solid #252525;
   padding: 14px 19px;
@@ -554,20 +556,173 @@ ABOUT - INTERNAL
   float: left;
   text-align: center;
   color: #fff;
-  background-color: #000;
+  background-color: #252525;
+
+}
+
+.header-about div {
+  width: 98.6%;
+  height: 258px;
+  margin: 8px auto;
+  border: 1px solid #3c3c3c;
 
 }
 
 .header-about h3 {
+  margin: 110px 0 7px;
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 3px;
 
 }
 
 .header-about p {
+  margin: 0;
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 12px;
+
+}
+
+.about-van {
+  width: 100%;
+  text-align: center;
+
+}
+
+.about-van h2 {
+  margin: 0;
+  padding: 0 28.5% 20px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: #252525;
+  background-image: url(../img/footer-h5-bar.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+}
+
+.about-van p {
+  margin: 17px 0 0;
+  padding: 0 15%;
+  font-size: 13px;
+
+}
+
+.about-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 107px 0 0;
+  
+}
+
+
+.about-history li {
+  width: 26.5%;
+  height: 296px;
+  display: inline-block;
+  vertical-align: text-top;
+  border: 1px solid #dbdbdb;
+  margin: 0 25px 25px 0;
+  padding: 30px 34px 42px 23px;
+  
+}
+
+.about-history li:nth-child(2n+2) {
+  background-color: #7a7a7a;
+
+}
+
+.about-history li:nth-child(3n+3) {
+  margin-right: 0;
+
+}
+
+.about-history li h4 {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #252525;
+  border-bottom: 1px solid #252525;
+  padding-bottom: 4px;
+  margin: 0 0 34px;
+  
+}
+
+.about-history p {
+  font-size: 13px;
+  margin: 0 0 20px;
+  
+}
+
+.our-team {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  background-color: #252525;
+
+}
+
+.our-team img {
+  margin-top: 65px;
+  
+}
+
+.our-team h4 {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 18px 0 20px;
+
+}
+
+.our-team p {
+  font-size: 13px;
+  margin: 0 17%;
+
+}
+
+.teams-members ul {
+  list-style: none;
+  padding: 0;
+  margin: 28px 0 36px;
+
+}
+
+.teams-members li {
+  width: 23%;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.teams-members li:nth-child(-n+3) {
+  margin-right: 26px;
+
+}
+
+.teams-members h4 {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #252525;
+  text-transform: uppercase;
+  margin: 24px 0 0
+
+}
+
+.teams-members p {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 12px;
+  margin: 0;
 
 }
