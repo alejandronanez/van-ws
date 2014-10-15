@@ -507,11 +507,12 @@ HOME - INTERNAL
   width: 43.5%;
   height: 286px;
   border: 1px double #252525;
+  vertical-align: middle;
   
 }
 
 .error404 h4 {
-  margin: 34px 0 14px;
+  margin: 86px 0 14px;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 3px;
