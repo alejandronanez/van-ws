@@ -960,7 +960,7 @@ BLOG - INTERNAL
   height: 77px;
   display: inline-block;
   background-color: #9b9b9b;
-  margin: 0 7px 7px 0;
+  margin: 0 2.5% 2.5% 0;
 
 }
 
@@ -982,4 +982,149 @@ BLOG - INTERNAL
   font-size: 13px;
   text-decoration: underline;
   margin: 0;
+
+}
+
+/**********************************
+BLOG-DETAIL - INTERNAL
+***********************************/
+
+.post-detail {
+  margin-bottom: 12px;
+  
+}
+
+.post-detail div {
+  background-color: #252525;
+  margin-bottom: 46px;
+  
+}
+
+.post-detail p {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.first-p::first-letter {
+  float: left;
+  font-size: 45px;
+  line-height: 45px;
+  color: #fff;
+  background-color: #252525;
+  background-size: 63px 63px;
+  margin-right: 15px;
+  padding: 10px 18px;
+  
+}
+
+.post-detail h3 {
+  float: left;
+  width: 94%;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #252525;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  border-left: 1px solid #252525;
+  margin: 38px 0 16px 23px;
+  padding: 14px 0 18px 23px;
+
+}
+
+.post-detail p:last-child, .previus-next {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 12px;
+  
+}
+
+.post-detail p:last-child {
+  float: right;
+  margin: 50px 0 0;
+  
+}
+
+.previus-next {
+  float: left;
+  width: 65.8%;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 8px;
+    
+}
+
+.previus-next a:first-child {
+  padding-left: 18px;
+  
+}
+
+.previus-next a:last-child {
+  float: right;
+  padding-right: 18px;
+
+}
+
+.blog-comments {
+  float: left;
+  width: 65.8%;
+
+}
+
+.blog-comments h3 {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #252525;
+  text-transform: uppercase;
+  background-image: url(../img/footer-h5-bar.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-bottom: 8px;
+  margin: 100px 0 63px;
+
+}
+
+.blog-comments img {
+  float: left;
+  margin-right: 18px;
+
+}
+
+.message h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #252525;
+  margin: 0;
+}
+
+.message h5, .message a {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 5px 0 17px;
+ 
+}
+
+.message h5 {
+  float: left;
+  width: 73.5%;
+
+}
+
+.message a {
+  float: right;
+  background-image: url(../img/post-reply.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 19px;
+  
+}
+
+.message p {
+  font-size: 13px;
+
 }
