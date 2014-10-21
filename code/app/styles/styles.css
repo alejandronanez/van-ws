@@ -1071,6 +1071,10 @@ BLOG-DETAIL - INTERNAL
 
 }
 
+.blog-comments article:nth-child(3) {
+  margin-left: 120px;
+
+}
 .blog-comments h3 {
   font-weight: 700;
   font-size: 12px;
@@ -1125,6 +1129,81 @@ BLOG-DETAIL - INTERNAL
 }
 
 .message p {
+  float: left;
+  width: 84.6%;
   font-size: 13px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 41px;
+  margin: 0;
+
+}
+
+.message-indent img {
+  margin-top: 45px;
+
+}
+
+.message-indent h4 {
+  float: left;
+  width: 81.8%;
+  margin-top: 45px;
+  
+}
+
+.message-indent p {
+  width: 79%;
+  margin-bottom: 34px;
+  padding-right: 18px
+  
+}
+
+.leave-reply {
+  width: 100%;
+  float: left;
+  margin: 92px 0 140px;
+  
+}
+
+.leave-reply h3 {
+  margin: 0 0 56px;
+
+}
+
+.leave-reply input, .leave-reply textarea {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 12px;
+  padding: 12px 0 12px 10px;
+  border: 1px solid #dadada;
+  background: none;
+
+}
+
+.leave-reply input {
+  width: 29.3%;
+  
+}
+
+.leave-reply input:nth-child(-n+3) {
+  margin-right: 3%;
+
+}
+
+.leave-reply textarea {
+  width: 98.4%;
+  height: 196px;
+  margin: 30px 0;
+
+}
+
+.leave-reply button {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #252525;
+  border: 1px solid #252525;
+  padding: 14px 24px;
+  background: none;
 
 }
