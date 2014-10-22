@@ -1196,7 +1196,7 @@ BLOG-DETAIL - INTERNAL
 
 }
 
-.leave-reply button {
+.leave-reply button, .contact-form button {
   font-weight: 500;
   font-size: 10px;
   letter-spacing: 2px;
@@ -1205,5 +1205,117 @@ BLOG-DETAIL - INTERNAL
   border: 1px solid #252525;
   padding: 14px 24px;
   background: none;
+
+}
+
+/**********************************
+CONTACT - INTERNAL
+***********************************/
+
+.contact-info {
+  width: 100%;
+  text-align: center;
+    
+}
+
+.contact-info div {
+  width: 30.3%;
+  float: left;
+  margin-top: 15px;
+
+}
+
+.contact-info div:first-child{
+  margin: 12px 0 0 10px;
+    
+}
+
+.contact-info div:nth-child(2) {
+  margin: 10px 44px 0;
+
+}
+.contact-info img {
+  background-image: url(../img/footer-h5-bar.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  vertical-align: middle;
+  padding: 0 20px 16px;
+
+}
+
+.contact-info h3, .contact-form {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+
+
+}
+
+.contact-info h3 {
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  color: #252525;
+  margin: 10px 0 0;
+
+}
+
+.contact-info p {
+  width: 69.5%;
+  float: left;
+  font-size: 13px;
+  margin: 65px 0 75px;
+  padding: 0 178px;
+ 
+}
+
+.personal-info, .contact-message {
+  width: 48.6%;
+  background: none;
+  border: none;
+  padding: 0;
+
+}
+
+.personal-info {
+  float: left;
+
+}
+
+.contact-form label {
+  font-size: 12px;
+  display: block;
+  margin: 0 0 10px;
+  
+}
+
+.personal-info input, .contact-message textarea  {
+  width: 100%;
+  height: 38px;
+  background: none;
+  border: 1px solid #dadada;
+  margin-bottom: 24px;
+  padding: 0;
+  
+}
+
+.contact-message {
+  float: right;
+  
+}
+
+.contact-message textarea {
+  height: 175px;
+  margin-bottom: 15px;
+
+}
+
+.contact-form button {
+  float: right;
+
+}
+
+.contact-map {
+  width: 100%;
+  margin: 34px 0 72px;
 
 }
