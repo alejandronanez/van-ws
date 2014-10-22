@@ -391,7 +391,7 @@ HOME - INTERNAL
   width: 31.6%;
   height: 366px;
   background-color: #858585;
-  margin: 0 25px 25px 0;
+  margin: 0 2.13% 30px 0;
   color: #fff;
   text-align: center;
   vertical-align: middle;
@@ -424,7 +424,7 @@ HOME - INTERNAL
   width: 17.1%;
   display: inline-block;
   text-align: center;
-  margin: 72px 3.78%;
+  margin: 67px 3.78%;
   padding: 0;
 
 }
@@ -1317,5 +1317,46 @@ CONTACT - INTERNAL
 .contact-map {
   width: 100%;
   margin: 34px 0 72px;
+
+}
+
+/**********************************
+PORTFOLIO - INTERNAL
+***********************************/
+
+.header-portfolio {
+  margin-bottom: 54px;
+
+}
+
+.portfolio-works {
+  text-align: center;
+
+}
+
+.nav-portfolio button {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav-portfolio ul {
+  margin: 17px 0 45px;
+  
+}
+
+.nav-portfolio li:nth-child(n+2):before {
+  content: " / ";
+  
+}
+
+.nav-portfolio li:hover {
+  color: #252525;
+  border-bottom: 1px solid #252525;
+  
+}
+    
+.gallery-portfolio {
+  margin-bottom: 55px;
 
 }
