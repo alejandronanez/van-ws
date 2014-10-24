@@ -1486,3 +1486,110 @@ PORTFOLIO-DETAIL - INTERNAL
   margin: 125px 0 52px;
   
 }
+
+/**********************************
+SERVICES - INTERNAL
+***********************************/
+
+.services-info h2 {
+  padding: 0 19.5% 20px;
+
+}
+
+.brand-services {
+  margin-top: 107px;
+
+}
+
+.services-quotation {
+  width: 100%;
+  height: 310px;
+  float: left;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #fff;
+  background-color: #252525;
+  margin: 70px 0;
+
+}
+
+.services-quotation h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  background-image: url(../img/bottom-h-white-bar.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin: 85px 17.1% 20px;
+  padding-bottom: 28px;
+
+}
+
+.services-quotation h4 {
+  font-family: "Ralawey", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+  
+}
+
+.services-quotation h5 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #848484;
+  margin-top: -1px;
+
+}
+
+.services-worked {
+  width 100%;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+.services-worked h4 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #252525;
+  background-image: url(../img/footer-h5-bar.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin: 0;
+  padding-bottom: 11px;
+
+}
+
+.services-worked ul {
+  list-style: none;
+  margin: 46px 0 72px;
+  padding: 0;
+
+}
+
+.services-worked li {
+  width: 14.5%;
+  height: 94px;
+  display: inline-block;
+  background-color: #252525;
+    
+}
+
+.services-worked li:nth-child(-n+4) {
+  margin-right: 6.4%;
+
+}
+
+.services-worked p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  vertical-align: middle;
+  margin-top: 35px; 
+
+}
