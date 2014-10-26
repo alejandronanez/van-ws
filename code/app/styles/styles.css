@@ -483,6 +483,7 @@ HOME - INTERNAL
 .comments a {
   font-weight: 500;
   font-size: 10px;
+  letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
   color: #252525;
@@ -550,7 +551,7 @@ HOME - INTERNAL
 ABOUT - INTERNAL
 ***********************************/
 
-.header-about {
+.header-internals {
   width: 100%;
   height: 274px;
   margin: 53px 0 85px;
@@ -561,7 +562,7 @@ ABOUT - INTERNAL
 
 }
 
-.header-about div {
+.header-internals div {
   width: 98.6%;
   height: 258px;
   margin: 8px auto;
@@ -569,7 +570,7 @@ ABOUT - INTERNAL
 
 }
 
-.header-about h3 {
+.header-internals h3 {
   margin: 110px 0 7px;
   font-size: 24px;
   font-weight: 600;
@@ -578,7 +579,7 @@ ABOUT - INTERNAL
 
 }
 
-.header-about p {
+.header-internals p {
   margin: 0;
   font-family: "Playfair Display", serif;
   font-style: italic;
@@ -726,4 +727,259 @@ ABOUT - INTERNAL
   font-size: 12px;
   margin: 0;
 
+}
+
+/**********************************
+BLOG - INTERNAL
+***********************************/
+
+.post-categories {
+  width: 100%;
+  float: left;
+
+}
+.post {
+  width: 65.8%;
+  float: left;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 46px;
+  margin-bottom: 54px;
+  
+}
+
+.post h4 {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #252525;
+  text-transform: uppercase;
+  background-image: url(../img/footer-h5-bar.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-bottom: 11px;
+  margin: 0;
+  
+}
+
+.post h5 {
+  float: left;
+  
+}
+
+.post h5, .post ul {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 11px 0 32px;
+
+}
+
+.post ul {
+  list-style: none;
+  float: right;
+  padding: 0;
+
+}
+
+.post li {
+  display: inline-block;
+  
+}
+
+.post li:nth-child(n+3):before {
+  content: "|";
+
+}
+
+.post li img {
+  padding: 0 10px;
+  vertical-align: middle;
+  
+}
+
+.post li img:last-child {
+  padding-right: 0
+  
+}
+
+.post li img[src="img/twitter-logo.png"] {
+  width: 13px;
+  height: 12px;
+  
+}
+
+.post div {
+  float: left;
+  width: 100%;
+  height: 380px;
+  background-color: #8f8f8f;
+
+}
+
+.post p {
+  float: left;
+  font-size: 13px;
+  margin: 46px 32px 46px 0;
+
+}
+
+.post a {
+  float: left;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #252525;
+  border: 1px solid #252525;
+  padding: 10px 16px;
+
+}
+
+.last-post {
+  margin-bottom: 24px;
+
+}
+.last-post p {
+  margin-top: 23px;
+
+}
+
+.quotation {
+  float: left;
+  width: 65.8%;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 61px;
+  margin: 7px 0 54px;
+  
+}
+
+.quotation div {
+  width: 89.1%;
+  float: left;
+  border: 1px solid #dadada;
+  color: #252525;
+  padding: 32px 62px 40px 20px;
+  
+}
+
+.quotation h2 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #252525;  
+  margin: 0;
+
+}
+.quotation h3 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  margin: 4px 0 8px;
+
+}
+
+.quotation h4 {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  
+}
+
+.oder-post {
+  width: 65.8%;
+  float: left;
+  margin-bottom: 160px;
+
+}
+
+.oder-post a {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+  padding-left: 18px;
+
+}
+
+.categories, .flickr-pics, .tags {
+  width: 23.1%;
+  float: right;
+}
+
+.categories h4, .flickr-pics h4, .tags h4 {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #252525;
+  text-transform: uppercase;
+  
+}
+
+.categories h4 {
+  margin: 124px 0 19px;
+  
+}
+
+.categories ul {
+  padding-left: 15px;
+  list-style-type: square;
+  margin: 0;
+}
+
+.categories li {
+  font-size: 13px;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 13px 0 17px;
+
+}
+
+.categories li:last-child {
+  border: none;
+
+}
+
+.flickr-pics h4 {
+  margin: 66px 0 30px;
+
+}
+
+.flickr-pics ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flickr-pics li {
+  width: 30.3%;
+  height: 77px;
+  display: inline-block;
+  background-color: #9b9b9b;
+  margin: 0 7px 7px 0;
+
+}
+
+.flickr-pics li:nth-child(3n+3) {
+  margin-right: 0;
+
+}
+
+.recent h4 {
+  margin: 68px 0 25px;
+
+}
+
+.tags h4 {
+  margin: 77px 0 32px;
+
+}
+.tags p {
+  font-size: 13px;
+  text-decoration: underline;
+  margin: 0;
 }
