@@ -960,7 +960,7 @@ BLOG - INTERNAL
   height: 77px;
   display: inline-block;
   background-color: #9b9b9b;
-  margin: 0 7px 7px 0;
+  margin: 0 2.5% 2.5% 0;
 
 }
 
@@ -982,4 +982,228 @@ BLOG - INTERNAL
   font-size: 13px;
   text-decoration: underline;
   margin: 0;
+
+}
+
+/**********************************
+BLOG-DETAIL - INTERNAL
+***********************************/
+
+.post-detail {
+  margin-bottom: 12px;
+  
+}
+
+.post-detail div {
+  background-color: #252525;
+  margin-bottom: 46px;
+  
+}
+
+.post-detail p {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.first-p::first-letter {
+  float: left;
+  font-size: 45px;
+  line-height: 45px;
+  color: #fff;
+  background-color: #252525;
+  background-size: 63px 63px;
+  margin-right: 15px;
+  padding: 10px 18px;
+  
+}
+
+.post-detail h3 {
+  float: left;
+  width: 94%;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #252525;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  border-left: 1px solid #252525;
+  margin: 38px 0 16px 23px;
+  padding: 14px 0 18px 23px;
+
+}
+
+.post-detail p:last-child, .previus-next {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 12px;
+  
+}
+
+.post-detail p:last-child {
+  float: right;
+  margin: 50px 0 0;
+  
+}
+
+.previus-next {
+  float: left;
+  width: 65.8%;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 8px;
+    
+}
+
+.previus-next a:first-child {
+  padding-left: 18px;
+  
+}
+
+.previus-next a:last-child {
+  float: right;
+  padding-right: 18px;
+
+}
+
+.blog-comments {
+  float: left;
+  width: 65.8%;
+
+}
+
+.blog-comments article:nth-child(3) {
+  margin-left: 120px;
+
+}
+.blog-comments h3 {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #252525;
+  text-transform: uppercase;
+  background-image: url(../img/footer-h5-bar.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-bottom: 8px;
+  margin: 100px 0 63px;
+
+}
+
+.blog-comments img {
+  float: left;
+  margin-right: 18px;
+
+}
+
+.message h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #252525;
+  margin: 0;
+}
+
+.message h5, .message a {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 5px 0 17px;
+ 
+}
+
+.message h5 {
+  float: left;
+  width: 73.5%;
+
+}
+
+.message a {
+  float: right;
+  background-image: url(../img/post-reply.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 19px;
+  
+}
+
+.message p {
+  float: left;
+  width: 84.6%;
+  font-size: 13px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 41px;
+  margin: 0;
+
+}
+
+.message-indent img {
+  margin-top: 45px;
+
+}
+
+.message-indent h4 {
+  float: left;
+  width: 81.8%;
+  margin-top: 45px;
+  
+}
+
+.message-indent p {
+  width: 79%;
+  margin-bottom: 34px;
+  padding-right: 18px
+  
+}
+
+.leave-reply {
+  width: 100%;
+  float: left;
+  margin: 92px 0 140px;
+  
+}
+
+.leave-reply h3 {
+  margin: 0 0 56px;
+
+}
+
+.leave-reply input, .leave-reply textarea {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 12px;
+  padding: 12px 0 12px 10px;
+  border: 1px solid #dadada;
+  background: none;
+
+}
+
+.leave-reply input {
+  width: 29.3%;
+  
+}
+
+.leave-reply input:nth-child(-n+3) {
+  margin-right: 3%;
+
+}
+
+.leave-reply textarea {
+  width: 98.4%;
+  height: 196px;
+  margin: 30px 0;
+
+}
+
+.leave-reply button {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #252525;
+  border: 1px solid #252525;
+  padding: 14px 24px;
+  background: none;
+
 }
